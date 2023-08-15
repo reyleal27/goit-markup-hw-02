@@ -77,58 +77,80 @@ address ul li a{
 .hero button:hover{
     cursor: pointer;
 }
-
-#feature-container ul li{
+.feature-container{
+    background-color: #fff;
+}
+.feature-container ul li{
     list-style: none;
     width: 264px;
 }
 
-#feature-container ul li h3{
+.feature-container ul li h3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
+.feature-container ul li p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 
-#body-container h2{
+.body-container h2{
     text-align: center;
 }
-#body-container ul li {
+.body-container ul li {
     list-style: none;
 }
-.body-images ul li img{
-    width: 360px;
-    height: 300px;
-}
 
-#team-container{
+.team-container{
     background-color: #F4F4FD;
 }
-#team-container h2{
+.team-container h2{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.72px;
     text-align: center;
 }
-#team-container ul li h3,#team-container ul li p{
+.team-container ul li p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     text-align: center;
 }
-#team-container ul li{
+.team-container ul li h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+
+.team-container ul li{
     list-style: none;
 }
-#team-container ul li img{
-    width: 264px;
-    height: 260px;
-}
+
+
 
 footer{
     background-color: #2E2F42;
     color: white;
 }
-
-footer #logo-footer{
+footer #logo-footer {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Raleway';
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer #logo-footer span{
     color:#F4F4FD;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
 }  
 footer p{
     font-size: 16px;
@@ -161,10 +183,6 @@ footer p{
     cursor: pointer;
 }
 
-.body-container ul li img{
-    width: 360px;
-    height: 300px;
-}
 .body-container ul li {
     list-style: none;
 }
