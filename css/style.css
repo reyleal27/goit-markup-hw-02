@@ -1,121 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 body{
-    background-color: #fff;
-    width: 1720;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto','Raleway', sans-serif;
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color:#2E2F42;
 }
-header{
-    display: flex;
-    width: auto;
-    height: 72px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 200px;
-}
-nav{
-    display: inline-flex;
-    align-items: flex-start;    
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    width: 300px;
-    background-color: rgb(255, 255, 255);
-}
-nav ul li{
-    width: 25%;
-}
-
-
-nav #logo{
-    color: #4D5AE5;
+header nav a{
     text-decoration: none;
+}
+#logo{
+    color: #4D5AE5;
     font-size: 18px;
     font-weight: 800;
-    letter-spacing: 0.54px;
-    justify-content: center;
     font-family: 'Raleway';
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 18px;
-}
-nav ul li a{
     text-decoration: none;
-    color: #2E2F42;
+    text-transform: uppercase;
 }
-nav a span{
-    color: #2E2F42;
+#logo span{
+    color:#2E2F42;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}   
+header nav ul li{
+    list-style: none;   
 }
-address ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
+header nav ul li a{
+    font-family: 'Roboto';
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+}
+header nav ul li a:hover,address ul li a:hover{
+    color: #4D5AE5;
+    
+}
+header nav ul li a:focus,address ul li a:focus{
+    color: #4D5AE5;
 }
 address ul li{
     list-style: none;
-    width: auto;
-}
-address ul li a{
-    text-decoration: none;
-    color:#434455;
-}
-main .hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: auto;
-    height: 600px;
-    background-color: #2E2F42;
-}
-.hero h1{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 56px;
-    color: #fff;
-    width: 500px;
-}
-.hero button{
-    position: relative;
-    background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding: 16px 32px;
-    color: #fff;
-    top: 120px;
-    right: 310px;
 }
 
-.feature-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-    margin: 100px auto;
-    padding: 5px 10px;
-}
-.feature-container ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    gap:8px;
-}
-.feature-container ul li{
-    width: 264px;
-    font-family: 'Roboto';
+address ul li a{
     font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.32px;
+    text-decoration: none;
+    color:#2E2F42
 }
-.feature-container ul li h3{
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #2E2F42;
+    color: #fff; 
+}
+
+.hero h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    width: 496px;
+}
+.hero button{
+    background-color: #4D5AE5;
+    color:#fff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero button:hover{
+    cursor: pointer;
+}
+
+#feature-container ul li{
+    list-style: none;
+    width: 264px;
+}
+
+#feature-container ul li h3{
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.4px;
+}
+
+#body-container h2{
+    text-align: center;
+}
+#body-container ul li {
+    list-style: none;
+}
+.body-images ul li img{
+    width: 360px;
+    height: 300px;
+}
+
+#team-container{
+    background-color: #F4F4FD;
+}
+#team-container h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+#team-container ul li h3,#team-container ul li p{
+    text-align: center;
+}
+#team-container ul li{
+    list-style: none;
+}
+#team-container ul li img{
+    width: 264px;
+    height: 260px;
+}
+
+footer{
+    background-color: #2E2F42;
+    color: white;
+}
+
+footer #logo-footer{
+    color:#F4F4FD;
+}  
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 264px;
+}
+
+/*Portfolio Design*/
+.portfolio-hero ul li{
+    list-style: none;
+}
+.portfolio-hero ul li button{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;   
+    letter-spacing: 0.64px;
+    border: none;
+    color: #4D5AE5;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color:#F4F4FD;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.portfolio-hero ul li button:hover{
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.body-container ul li img{
+    width: 360px;
+    height: 300px;
+}
+.body-container ul li {
+    list-style: none;
+}
+.body-container ul li h3{
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+}
+.body-container ul li p{
+  
+line-height: 1.5; 
+letter-spacing: 0.32px;
 }
