@@ -35,6 +35,7 @@ header nav ul li a:hover,address ul li a:hover{
 }
 header nav ul li a:focus,address ul li a:focus{
     color: #4D5AE5;
+    outline: transparent;
 }
 address ul li{
     list-style: none;
@@ -181,6 +182,11 @@ footer p{
     color: #F4F4FD;
     background-color: #4D5AE5;
     cursor: pointer;
+}
+.portfolio-hero ul li button:focus{
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+    outline: transparent;
 }
 
 .body-container ul li {
