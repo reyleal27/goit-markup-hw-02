@@ -59,11 +59,15 @@ body{
     outline: transparent;
 }
 
-.button:focus,button:active{
+.button:focus{
     color: var(--secondary-color);
     background-color: var(--cloud);
 }
 
+button:active{
+    color: wheat;
+    background-color: rgb(151, 197, 23); 
+}
 .main-header-nav-address-link{
     list-style: none;
 }
