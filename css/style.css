@@ -64,8 +64,8 @@ body{
     background-color: var(--cloud);
 }
 
-button:active{
-    color: wheat;
+.hero .button:active{
+    color: var(--white);
     background-color: rgb(151, 197, 23); 
 }
 .main-header-nav-address-link{
@@ -216,7 +216,7 @@ button:active{
     outline: transparent;
 }
 .buttons:active{
-    color: wheat;
+    color: var(--white);
     background-color: rgb(151, 197, 23);    
 }
 
