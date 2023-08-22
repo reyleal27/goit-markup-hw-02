@@ -64,10 +64,7 @@ body{
     background-color: var(--cloud);
 }
 
-.hero .button:active{
-    color: var(--white);
-    background-color: rgb(151, 197, 23); 
-}
+
 .main-header-nav-address-link{
     list-style: none;
 }
@@ -215,10 +212,7 @@ body{
     cursor: pointer;
     outline: transparent;
 }
-.buttons:active{
-    color: var(--white);
-    background-color: rgb(151, 197, 23);    
-}
+
 
 
 
